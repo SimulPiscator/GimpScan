@@ -156,6 +156,10 @@ static int install()
         if (err)
             return errorExit(err);
     }
+    alert = [NSAlert new];
+    alert.messageText = @"The GimpScan plugin was installed successfully.";
+    [alert addButtonWithTitle:@"OK"];
+    [alert runModal];
     return 0;
 }
 
