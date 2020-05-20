@@ -2,7 +2,7 @@
 A GIMP plugin to import images from scanners on macOS.
 
 ## Usage
-Choose File->Create->Scanner... from the GIMP's menu. This will run the plugin. It displays an Apple ImageKit view of the scanner.
+Choose File->Create->Scanner... from the GIMP's menu. This will run the plugin. It displays a view of the scanner that is provided by the OS, and known from Apple Image Capture.
 ![grafik](https://user-images.githubusercontent.com/28909687/82439507-15870500-9a9b-11ea-84bc-753f9883e3be.png)
 
 Click "Scan to GIMP". This will perform a scan to a temporary file in the selected format, and open the temporary file in the GIMP.
