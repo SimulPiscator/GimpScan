@@ -1,8 +1,7 @@
 //
 //  main.m
-//  GimpImageCapture
+//  GimpScan
 //
-//  Created by Jürgen Mellinger on 09.05.20.
 //  Copyright © 2020 Simul Piscator. All rights reserved.
 //
 
@@ -149,12 +148,11 @@ static int install()
         [fileManager copyItemAtPath:thisApp toPath:copiedApp error:&err];
         if (err)
             return errorExit(err);
-        NSMutableString* gimpPluginExePath = [[NSMutableString alloc] initWithString:gimpPluginPath];
-        [gimpPluginExePath appendString:appName];
-        [gimpPluginExePath appendString:appToExe];
+        NSMutableString* pluginExePath = [[NSMutableString alloc] initWithString:appName];
+        [pluginExePath appendString:appToExe];
         NSMutableString* symlinkPath = [[NSMutableString alloc] initWithString:gimpPluginPath];
         [symlinkPath appendString:@"gimp-scan"];
-        [fileManager createSymbolicLinkAtPath:symlinkPath withDestinationPath:gimpPluginExePath error:&err];
+        [fileManager createSymbolicLinkAtPath:symlinkPath withDestinationPath:pluginExePath error:&err];
         if (err)
             return errorExit(err);
     }
