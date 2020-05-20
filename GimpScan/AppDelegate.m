@@ -27,7 +27,11 @@ extern const char** __argv;
             break;
         }
     }
+    NSURL* temp = [[NSURL alloc] initWithString:NSTemporaryDirectory()];
+    self.scanner.downloadsDirectory = temp;
     self.scanner.documentName = @"Scan";
+    self.scanner.postProcessApplication = nil;
+    
     [NSApp activateIgnoringOtherApps:YES];
 }
 

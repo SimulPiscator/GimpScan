@@ -28,6 +28,40 @@
 		3847B6D924740100005B2B3B /* libgimpconfig-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3847B6DA24740100005B2B3B /* libgimpmath-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3847B6DB24740100005B2B3B /* libintl.9.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C22474007C005B2B3B /* libintl.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF99022475961B00B5DF66 /* libgio-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */; };
+		38FF99032475962400B5DF66 /* libgio-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF99052475971900B5DF66 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99042475971900B5DF66 /* libgobject-2.0.0.dylib */; };
+		38FF99062475976500B5DF66 /* libgobject-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF99042475971900B5DF66 /* libgobject-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF99082475979C00B5DF66 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99072475979C00B5DF66 /* libglib-2.0.0.dylib */; };
+		38FF9909247597BE00B5DF66 /* libglib-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF99072475979C00B5DF66 /* libglib-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF990E2475986900B5DF66 /* libjpeg.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF990D2475986900B5DF66 /* libjpeg.9.dylib */; };
+		38FF990F2475988100B5DF66 /* libjpeg.9.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF990D2475986900B5DF66 /* libjpeg.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF9911247598AF00B5DF66 /* libffi.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF9910247598AF00B5DF66 /* libffi.6.dylib */; };
+		38FF9912247598B800B5DF66 /* libffi.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF9910247598AF00B5DF66 /* libffi.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF9914247598F800B5DF66 /* libgmodule-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF9913247598F800B5DF66 /* libgmodule-2.0.0.dylib */; };
+		38FF99152475990A00B5DF66 /* libgmodule-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF9913247598F800B5DF66 /* libgmodule-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF99172475995200B5DF66 /* libgegl-0.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99162475995200B5DF66 /* libgegl-0.4.0.dylib */; };
+		38FF99182475996200B5DF66 /* libgegl-0.4.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF99162475995200B5DF66 /* libgegl-0.4.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF991A2475998400B5DF66 /* libgegl-npd-0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99192475998400B5DF66 /* libgegl-npd-0.4.dylib */; };
+		38FF991B2475999000B5DF66 /* libgegl-npd-0.4.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF99192475998400B5DF66 /* libgegl-npd-0.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF991D247599D200B5DF66 /* libjson-glib-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF991C247599D200B5DF66 /* libjson-glib-1.0.0.dylib */; };
+		38FF991E247599E800B5DF66 /* libjson-glib-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF991C247599D200B5DF66 /* libjson-glib-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF992024759A1400B5DF66 /* libbabl-0.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF991F24759A1300B5DF66 /* libbabl-0.1.0.dylib */; };
+		38FF992124759A1A00B5DF66 /* libbabl-0.1.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF991F24759A1300B5DF66 /* libbabl-0.1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF992324759A4100B5DF66 /* libcairo.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF992224759A4100B5DF66 /* libcairo.2.dylib */; };
+		38FF992424759A4700B5DF66 /* libcairo.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF992224759A4100B5DF66 /* libcairo.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF992624759A6C00B5DF66 /* libgdk_pixbuf-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF992524759A6C00B5DF66 /* libgdk_pixbuf-2.0.0.dylib */; };
+		38FF992724759A7300B5DF66 /* libgdk_pixbuf-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF992524759A6C00B5DF66 /* libgdk_pixbuf-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF992924759AAA00B5DF66 /* liblcms2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF992824759AAA00B5DF66 /* liblcms2.2.dylib */; };
+		38FF992A24759AB000B5DF66 /* liblcms2.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF992824759AAA00B5DF66 /* liblcms2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF992C24759AF000B5DF66 /* libpixman-1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF992B24759AF000B5DF66 /* libpixman-1.0.dylib */; };
+		38FF992D24759B0000B5DF66 /* libpixman-1.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF992B24759AF000B5DF66 /* libpixman-1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF992F24759B3300B5DF66 /* libfontconfig.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF992E24759B3200B5DF66 /* libfontconfig.1.dylib */; };
+		38FF993024759B3B00B5DF66 /* libfontconfig.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF992E24759B3200B5DF66 /* libfontconfig.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF993224759B7200B5DF66 /* libfreetype.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF993124759B7200B5DF66 /* libfreetype.6.dylib */; };
+		38FF993324759B7D00B5DF66 /* libfreetype.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF993124759B7200B5DF66 /* libfreetype.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38FF993524759BA900B5DF66 /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF993424759BA900B5DF66 /* libpng16.16.dylib */; };
+		38FF993624759BC000B5DF66 /* libpng16.16.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF993424759BA900B5DF66 /* libpng16.16.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +81,31 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				38FF992424759A4700B5DF66 /* libcairo.2.dylib in CopyFiles */,
+				38FF991B2475999000B5DF66 /* libgegl-npd-0.4.dylib in CopyFiles */,
+				38FF99182475996200B5DF66 /* libgegl-0.4.0.dylib in CopyFiles */,
+				38FF99152475990A00B5DF66 /* libgmodule-2.0.0.dylib in CopyFiles */,
+				38FF9909247597BE00B5DF66 /* libglib-2.0.0.dylib in CopyFiles */,
+				38FF99062475976500B5DF66 /* libgobject-2.0.0.dylib in CopyFiles */,
 				3847B6D424740100005B2B3B /* libexiv2.27.dylib in CopyFiles */,
 				3847B6D524740100005B2B3B /* libgexiv2.2.dylib in CopyFiles */,
 				3847B6D624740100005B2B3B /* libgimp-2.0.0.dylib in CopyFiles */,
+				38FF99032475962400B5DF66 /* libgio-2.0.0.dylib in CopyFiles */,
 				3847B6D724740100005B2B3B /* libgimpbase-2.0.0.dylib in CopyFiles */,
 				3847B6D824740100005B2B3B /* libgimpcolor-2.0.0.dylib in CopyFiles */,
 				3847B6D924740100005B2B3B /* libgimpconfig-2.0.0.dylib in CopyFiles */,
 				3847B6DA24740100005B2B3B /* libgimpmath-2.0.0.dylib in CopyFiles */,
 				3847B6DB24740100005B2B3B /* libintl.9.dylib in CopyFiles */,
+				38FF990F2475988100B5DF66 /* libjpeg.9.dylib in CopyFiles */,
+				38FF9912247598B800B5DF66 /* libffi.6.dylib in CopyFiles */,
+				38FF991E247599E800B5DF66 /* libjson-glib-1.0.0.dylib in CopyFiles */,
+				38FF992124759A1A00B5DF66 /* libbabl-0.1.0.dylib in CopyFiles */,
+				38FF992724759A7300B5DF66 /* libgdk_pixbuf-2.0.0.dylib in CopyFiles */,
+				38FF992A24759AB000B5DF66 /* liblcms2.2.dylib in CopyFiles */,
+				38FF992D24759B0000B5DF66 /* libpixman-1.0.dylib in CopyFiles */,
+				38FF993024759B3B00B5DF66 /* libfontconfig.1.dylib in CopyFiles */,
+				38FF993324759B7D00B5DF66 /* libfreetype.6.dylib in CopyFiles */,
+				38FF993624759BC000B5DF66 /* libpng16.16.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +129,23 @@
 		3847B6C82474007C005B2B3B /* libgimpcolor-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpcolor-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpcolor-2.0.0.dylib"; sourceTree = "<group>"; };
 		3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpmath-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpmath-2.0.0.dylib"; sourceTree = "<group>"; };
 		3847B6D2247400A5005B2B3B /* GimpScan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GimpScan.icns; sourceTree = "<group>"; };
+		38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgio-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgio-2.0.0.dylib"; sourceTree = "<group>"; };
+		38FF99042475971900B5DF66 /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
+		38FF99072475979C00B5DF66 /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
+		38FF990D2475986900B5DF66 /* libjpeg.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.9.dylib; path = GimpScan/libgimp/lib/libjpeg.9.dylib; sourceTree = "<group>"; };
+		38FF9910247598AF00B5DF66 /* libffi.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libffi.6.dylib; path = GimpScan/libgimp/lib/libffi.6.dylib; sourceTree = "<group>"; };
+		38FF9913247598F800B5DF66 /* libgmodule-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgmodule-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgmodule-2.0.0.dylib"; sourceTree = "<group>"; };
+		38FF99162475995200B5DF66 /* libgegl-0.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgegl-0.4.0.dylib"; path = "GimpScan/libgimp/lib/libgegl-0.4.0.dylib"; sourceTree = "<group>"; };
+		38FF99192475998400B5DF66 /* libgegl-npd-0.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgegl-npd-0.4.dylib"; path = "GimpScan/libgimp/lib/libgegl-npd-0.4.dylib"; sourceTree = "<group>"; };
+		38FF991C247599D200B5DF66 /* libjson-glib-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libjson-glib-1.0.0.dylib"; path = "GimpScan/libgimp/lib/libjson-glib-1.0.0.dylib"; sourceTree = "<group>"; };
+		38FF991F24759A1300B5DF66 /* libbabl-0.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libbabl-0.1.0.dylib"; path = "GimpScan/libgimp/lib/libbabl-0.1.0.dylib"; sourceTree = "<group>"; };
+		38FF992224759A4100B5DF66 /* libcairo.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcairo.2.dylib; path = GimpScan/libgimp/lib/libcairo.2.dylib; sourceTree = "<group>"; };
+		38FF992524759A6C00B5DF66 /* libgdk_pixbuf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgdk_pixbuf-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgdk_pixbuf-2.0.0.dylib"; sourceTree = "<group>"; };
+		38FF992824759AAA00B5DF66 /* liblcms2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblcms2.2.dylib; path = GimpScan/libgimp/lib/liblcms2.2.dylib; sourceTree = "<group>"; };
+		38FF992B24759AF000B5DF66 /* libpixman-1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpixman-1.0.dylib"; path = "GimpScan/libgimp/lib/libpixman-1.0.dylib"; sourceTree = "<group>"; };
+		38FF992E24759B3200B5DF66 /* libfontconfig.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfontconfig.1.dylib; path = GimpScan/libgimp/lib/libfontconfig.1.dylib; sourceTree = "<group>"; };
+		38FF993124759B7200B5DF66 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = GimpScan/libgimp/lib/libfreetype.6.dylib; sourceTree = "<group>"; };
+		38FF993424759BA900B5DF66 /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = GimpScan/libgimp/lib/libpng16.16.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +153,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FF9914247598F800B5DF66 /* libgmodule-2.0.0.dylib in Frameworks */,
+				38FF992C24759AF000B5DF66 /* libpixman-1.0.dylib in Frameworks */,
+				38FF992F24759B3300B5DF66 /* libfontconfig.1.dylib in Frameworks */,
+				38FF9911247598AF00B5DF66 /* libffi.6.dylib in Frameworks */,
 				3847B6D12474007C005B2B3B /* libgimpmath-2.0.0.dylib in Frameworks */,
+				38FF99052475971900B5DF66 /* libgobject-2.0.0.dylib in Frameworks */,
 				3847B6D02474007C005B2B3B /* libgimpcolor-2.0.0.dylib in Frameworks */,
+				38FF992624759A6C00B5DF66 /* libgdk_pixbuf-2.0.0.dylib in Frameworks */,
 				3847B6CC2474007C005B2B3B /* libgimpconfig-2.0.0.dylib in Frameworks */,
+				38FF992024759A1400B5DF66 /* libbabl-0.1.0.dylib in Frameworks */,
+				38FF992324759A4100B5DF66 /* libcairo.2.dylib in Frameworks */,
+				38FF99022475961B00B5DF66 /* libgio-2.0.0.dylib in Frameworks */,
+				38FF99082475979C00B5DF66 /* libglib-2.0.0.dylib in Frameworks */,
+				38FF991D247599D200B5DF66 /* libjson-glib-1.0.0.dylib in Frameworks */,
+				38FF992924759AAA00B5DF66 /* liblcms2.2.dylib in Frameworks */,
+				38FF993524759BA900B5DF66 /* libpng16.16.dylib in Frameworks */,
+				38FF99172475995200B5DF66 /* libgegl-0.4.0.dylib in Frameworks */,
 				3847B6CD2474007C005B2B3B /* libgexiv2.2.dylib in Frameworks */,
+				38FF993224759B7200B5DF66 /* libfreetype.6.dylib in Frameworks */,
 				3847B6CA2474007C005B2B3B /* libintl.9.dylib in Frameworks */,
 				3847B6CE2474007C005B2B3B /* libexiv2.27.dylib in Frameworks */,
+				38FF991A2475998400B5DF66 /* libgegl-npd-0.4.dylib in Frameworks */,
 				3847B6CB2474007C005B2B3B /* libgimp-2.0.0.dylib in Frameworks */,
 				3847B6CF2474007C005B2B3B /* libgimpbase-2.0.0.dylib in Frameworks */,
+				38FF990E2475986900B5DF66 /* libjpeg.9.dylib in Frameworks */,
 				381F9A612467257B00871D9D /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +234,23 @@
 				3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */,
 				3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */,
 				3847B6C22474007C005B2B3B /* libintl.9.dylib */,
+				38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */,
+				38FF99042475971900B5DF66 /* libgobject-2.0.0.dylib */,
+				38FF99072475979C00B5DF66 /* libglib-2.0.0.dylib */,
+				38FF990D2475986900B5DF66 /* libjpeg.9.dylib */,
+				38FF9910247598AF00B5DF66 /* libffi.6.dylib */,
+				38FF9913247598F800B5DF66 /* libgmodule-2.0.0.dylib */,
+				38FF99162475995200B5DF66 /* libgegl-0.4.0.dylib */,
+				38FF99192475998400B5DF66 /* libgegl-npd-0.4.dylib */,
+				38FF991C247599D200B5DF66 /* libjson-glib-1.0.0.dylib */,
+				38FF991F24759A1300B5DF66 /* libbabl-0.1.0.dylib */,
+				38FF993424759BA900B5DF66 /* libpng16.16.dylib */,
+				38FF992224759A4100B5DF66 /* libcairo.2.dylib */,
+				38FF992524759A6C00B5DF66 /* libgdk_pixbuf-2.0.0.dylib */,
+				38FF992824759AAA00B5DF66 /* liblcms2.2.dylib */,
+				38FF993124759B7200B5DF66 /* libfreetype.6.dylib */,
+				38FF992E24759B3200B5DF66 /* libfontconfig.1.dylib */,
+				38FF992B24759AF000B5DF66 /* libpixman-1.0.dylib */,
 				381F9A602467257B00871D9D /* Quartz.framework */,
 			);
 			name = Frameworks;
@@ -444,6 +546,7 @@
 					"$(PROJECT_DIR)/GimpScan/lib",
 					"$(PROJECT_DIR)/GimpScan/libgimp/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = org.simulpiscator.GimpScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -470,6 +573,7 @@
 					"$(PROJECT_DIR)/GimpScan/lib",
 					"$(PROJECT_DIR)/GimpScan/libgimp/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = org.simulpiscator.GimpScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
