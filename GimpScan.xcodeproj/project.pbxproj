@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381F9A3E246711F500871D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381F9A3D246711F500871D9D /* AppDelegate.m */; };
+		381F9A43246711F700871D9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381F9A41246711F700871D9D /* MainMenu.xib */; };
+		381F9A46246711F700871D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 381F9A45246711F700871D9D /* main.m */; };
+		381F9A612467257B00871D9D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381F9A602467257B00871D9D /* Quartz.framework */; };
+		3847B6CA2474007C005B2B3B /* libintl.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C22474007C005B2B3B /* libintl.9.dylib */; };
+		3847B6CB2474007C005B2B3B /* libgimp-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C32474007C005B2B3B /* libgimp-2.0.0.dylib */; };
+		3847B6CC2474007C005B2B3B /* libgimpconfig-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */; };
+		3847B6CD2474007C005B2B3B /* libgexiv2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C52474007C005B2B3B /* libgexiv2.2.dylib */; };
+		3847B6CE2474007C005B2B3B /* libexiv2.27.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C62474007C005B2B3B /* libexiv2.27.dylib */; };
+		3847B6CF2474007C005B2B3B /* libgimpbase-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C72474007C005B2B3B /* libgimpbase-2.0.0.dylib */; };
+		3847B6D02474007C005B2B3B /* libgimpcolor-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C82474007C005B2B3B /* libgimpcolor-2.0.0.dylib */; };
+		3847B6D12474007C005B2B3B /* libgimpmath-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */; };
+		3847B6D3247400A5005B2B3B /* GimpScan.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3847B6D2247400A5005B2B3B /* GimpScan.icns */; };
+		3847B6D424740100005B2B3B /* libexiv2.27.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C62474007C005B2B3B /* libexiv2.27.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6D524740100005B2B3B /* libgexiv2.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C52474007C005B2B3B /* libgexiv2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6D624740100005B2B3B /* libgimp-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C32474007C005B2B3B /* libgimp-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6D724740100005B2B3B /* libgimpbase-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C72474007C005B2B3B /* libgimpbase-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6D824740100005B2B3B /* libgimpcolor-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C82474007C005B2B3B /* libgimpcolor-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6D924740100005B2B3B /* libgimpconfig-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6DA24740100005B2B3B /* libgimpmath-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3847B6DB24740100005B2B3B /* libintl.9.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C22474007C005B2B3B /* libintl.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		381F9A4D246711F700871D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381F9A31246711F500871D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381F9A38246711F500871D9D;
+			remoteInfo = GimpImageCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38B1DFF1246B1F58004F794D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3847B6D424740100005B2B3B /* libexiv2.27.dylib in CopyFiles */,
+				3847B6D524740100005B2B3B /* libgexiv2.2.dylib in CopyFiles */,
+				3847B6D624740100005B2B3B /* libgimp-2.0.0.dylib in CopyFiles */,
+				3847B6D724740100005B2B3B /* libgimpbase-2.0.0.dylib in CopyFiles */,
+				3847B6D824740100005B2B3B /* libgimpcolor-2.0.0.dylib in CopyFiles */,
+				3847B6D924740100005B2B3B /* libgimpconfig-2.0.0.dylib in CopyFiles */,
+				3847B6DA24740100005B2B3B /* libgimpmath-2.0.0.dylib in CopyFiles */,
+				3847B6DB24740100005B2B3B /* libintl.9.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		381F9A39246711F500871D9D /* GimpScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GimpScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381F9A3C246711F500871D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		381F9A3D246711F500871D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		381F9A42246711F700871D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		381F9A44246711F700871D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381F9A45246711F700871D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		381F9A4C246711F700871D9D /* GimpScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GimpScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381F9A602467257B00871D9D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		3847B6C22474007C005B2B3B /* libintl.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.9.dylib; path = GimpScan/libgimp/lib/libintl.9.dylib; sourceTree = "<group>"; };
+		3847B6C32474007C005B2B3B /* libgimp-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimp-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimp-2.0.0.dylib"; sourceTree = "<group>"; };
+		3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpconfig-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpconfig-2.0.0.dylib"; sourceTree = "<group>"; };
+		3847B6C52474007C005B2B3B /* libgexiv2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgexiv2.2.dylib; path = GimpScan/libgimp/lib/libgexiv2.2.dylib; sourceTree = "<group>"; };
+		3847B6C62474007C005B2B3B /* libexiv2.27.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexiv2.27.dylib; path = GimpScan/libgimp/lib/libexiv2.27.dylib; sourceTree = "<group>"; };
+		3847B6C72474007C005B2B3B /* libgimpbase-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpbase-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpbase-2.0.0.dylib"; sourceTree = "<group>"; };
+		3847B6C82474007C005B2B3B /* libgimpcolor-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpcolor-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpcolor-2.0.0.dylib"; sourceTree = "<group>"; };
+		3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpmath-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpmath-2.0.0.dylib"; sourceTree = "<group>"; };
+		3847B6D2247400A5005B2B3B /* GimpScan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GimpScan.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381F9A36246711F500871D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3847B6D12474007C005B2B3B /* libgimpmath-2.0.0.dylib in Frameworks */,
+				3847B6D02474007C005B2B3B /* libgimpcolor-2.0.0.dylib in Frameworks */,
+				3847B6CC2474007C005B2B3B /* libgimpconfig-2.0.0.dylib in Frameworks */,
+				3847B6CD2474007C005B2B3B /* libgexiv2.2.dylib in Frameworks */,
+				3847B6CA2474007C005B2B3B /* libintl.9.dylib in Frameworks */,
+				3847B6CE2474007C005B2B3B /* libexiv2.27.dylib in Frameworks */,
+				3847B6CB2474007C005B2B3B /* libgimp-2.0.0.dylib in Frameworks */,
+				3847B6CF2474007C005B2B3B /* libgimpbase-2.0.0.dylib in Frameworks */,
+				381F9A612467257B00871D9D /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F9A49246711F700871D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381F9A30246711F500871D9D = {
+			isa = PBXGroup;
+			children = (
+				381F9A3B246711F500871D9D /* GimpScan */,
+				381F9A3A246711F500871D9D /* Products */,
+				381F9A5F2467257B00871D9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		381F9A3A246711F500871D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381F9A39246711F500871D9D /* GimpScan.app */,
+				381F9A4C246711F700871D9D /* GimpScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381F9A3B246711F500871D9D /* GimpScan */ = {
+			isa = PBXGroup;
+			children = (
+				381F9A44246711F700871D9D /* Info.plist */,
+				3847B6D2247400A5005B2B3B /* GimpScan.icns */,
+				381F9A41246711F700871D9D /* MainMenu.xib */,
+				381F9A3C246711F500871D9D /* AppDelegate.h */,
+				381F9A3D246711F500871D9D /* AppDelegate.m */,
+				381F9A45246711F700871D9D /* main.m */,
+			);
+			path = GimpScan;
+			sourceTree = "<group>";
+		};
+		381F9A5F2467257B00871D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3847B6C62474007C005B2B3B /* libexiv2.27.dylib */,
+				3847B6C52474007C005B2B3B /* libgexiv2.2.dylib */,
+				3847B6C32474007C005B2B3B /* libgimp-2.0.0.dylib */,
+				3847B6C72474007C005B2B3B /* libgimpbase-2.0.0.dylib */,
+				3847B6C82474007C005B2B3B /* libgimpcolor-2.0.0.dylib */,
+				3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */,
+				3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */,
+				3847B6C22474007C005B2B3B /* libintl.9.dylib */,
+				381F9A602467257B00871D9D /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381F9A38246711F500871D9D /* GimpScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381F9A55246711F700871D9D /* Build configuration list for PBXNativeTarget "GimpScan" */;
+			buildPhases = (
+				381F9A35246711F500871D9D /* Sources */,
+				381F9A36246711F500871D9D /* Frameworks */,
+				381F9A37246711F500871D9D /* Resources */,
+				38B1DFF1246B1F58004F794D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GimpScan;
+			productName = GimpImageCapture;
+			productReference = 381F9A39246711F500871D9D /* GimpScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381F9A4B246711F700871D9D /* GimpScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381F9A58246711F700871D9D /* Build configuration list for PBXNativeTarget "GimpScanUITests" */;
+			buildPhases = (
+				381F9A48246711F700871D9D /* Sources */,
+				381F9A49246711F700871D9D /* Frameworks */,
+				381F9A4A246711F700871D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381F9A4E246711F700871D9D /* PBXTargetDependency */,
+			);
+			name = GimpScanUITests;
+			productName = GimpImageCaptureUITests;
+			productReference = 381F9A4C246711F700871D9D /* GimpScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381F9A31246711F500871D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Simul Piscator";
+				TargetAttributes = {
+					381F9A38246711F500871D9D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					381F9A4B246711F700871D9D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 381F9A38246711F500871D9D;
+					};
+				};
+			};
+			buildConfigurationList = 381F9A34246711F500871D9D /* Build configuration list for PBXProject "GimpScan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381F9A30246711F500871D9D;
+			productRefGroup = 381F9A3A246711F500871D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381F9A38246711F500871D9D /* GimpScan */,
+				381F9A4B246711F700871D9D /* GimpScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381F9A37246711F500871D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3847B6D3247400A5005B2B3B /* GimpScan.icns in Resources */,
+				381F9A43246711F700871D9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F9A4A246711F700871D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381F9A35246711F500871D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381F9A46246711F700871D9D /* main.m in Sources */,
+				381F9A3E246711F500871D9D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F9A48246711F700871D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381F9A4E246711F700871D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381F9A38246711F500871D9D /* GimpScan */;
+			targetProxy = 381F9A4D246711F700871D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		381F9A41246711F700871D9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381F9A42246711F700871D9D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381F9A53246711F700871D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/GimpScan/libgimp/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../gimpnix",
+					"$(SRCROOT)/GimpScan/libgimp/include",
+					/usr/local/include/cairo,
+					"/usr/local/include/gegl-0.4",
+					"/usr/local/include/glib-2.0",
+					"/usr/local/lib/glib-2.0/include/",
+					"/usr/local/include/babl-0.1",
+					"/usr/local/include/gdk-pixbuf-2.0",
+				);
+			};
+			name = Debug;
+		};
+		381F9A54246711F700871D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/GimpScan/libgimp/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../gimpnix",
+					"$(SRCROOT)/GimpScan/libgimp/include",
+					/usr/local/include/cairo,
+					"/usr/local/include/gegl-0.4",
+					"/usr/local/include/glib-2.0",
+					"/usr/local/lib/glib-2.0/include/",
+					"/usr/local/include/babl-0.1",
+					"/usr/local/include/gdk-pixbuf-2.0",
+				);
+			};
+			name = Release;
+		};
+		381F9A56246711F700871D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Simul Piscator";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GimpScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GimpScan",
+					"$(PROJECT_DIR)/GimpScan/lib",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GimpScan/lib",
+					"$(PROJECT_DIR)/GimpScan/libgimp/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.simulpiscator.GimpScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		381F9A57246711F700871D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Simul Piscator";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GimpScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GimpScan",
+					"$(PROJECT_DIR)/GimpScan/lib",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/GimpScan/lib",
+					"$(PROJECT_DIR)/GimpScan/libgimp/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.simulpiscator.GimpScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		381F9A59246711F700871D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GimpImageCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.simulpiscator.GimpImageCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GimpImageCapture;
+			};
+			name = Debug;
+		};
+		381F9A5A246711F700871D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GimpImageCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.simulpiscator.GimpImageCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GimpImageCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381F9A34246711F500871D9D /* Build configuration list for PBXProject "GimpScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F9A53246711F700871D9D /* Debug */,
+				381F9A54246711F700871D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381F9A55246711F700871D9D /* Build configuration list for PBXNativeTarget "GimpScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F9A56246711F700871D9D /* Debug */,
+				381F9A57246711F700871D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381F9A58246711F700871D9D /* Build configuration list for PBXNativeTarget "GimpScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F9A59246711F700871D9D /* Debug */,
+				381F9A5A246711F700871D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381F9A31246711F500871D9D /* Project object */;
+}
