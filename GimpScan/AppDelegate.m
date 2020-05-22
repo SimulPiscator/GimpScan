@@ -27,12 +27,17 @@ extern const char** __argv;
             break;
         }
     }
-    NSURL* temp = [[NSURL alloc] initWithString:NSTemporaryDirectory()];
-    self.scanner.downloadsDirectory = temp;
     self.scanner.documentName = @"Scan";
     self.scanner.postProcessApplication = nil;
     
     [NSApp activateIgnoringOtherApps:YES];
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification {
+    // For this notification to be given, the Info.plist entry "Application
+    // can be killed immediately when user is shutting down or logging out"
+    // must be set to "NO".
+    gimp_quit();
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {

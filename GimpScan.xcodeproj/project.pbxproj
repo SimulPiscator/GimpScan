@@ -28,6 +28,7 @@
 		3847B6D924740100005B2B3B /* libgimpconfig-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C42474007C005B2B3B /* libgimpconfig-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3847B6DA24740100005B2B3B /* libgimpmath-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		3847B6DB24740100005B2B3B /* libintl.9.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3847B6C22474007C005B2B3B /* libintl.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		38E369CC2478375500373594 /* install.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E369CB2478375500373594 /* install.m */; };
 		38FF99022475961B00B5DF66 /* libgio-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */; };
 		38FF99032475962400B5DF66 /* libgio-2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		38FF99052475971900B5DF66 /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FF99042475971900B5DF66 /* libgobject-2.0.0.dylib */; };
@@ -129,6 +130,7 @@
 		3847B6C82474007C005B2B3B /* libgimpcolor-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpcolor-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpcolor-2.0.0.dylib"; sourceTree = "<group>"; };
 		3847B6C92474007C005B2B3B /* libgimpmath-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgimpmath-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgimpmath-2.0.0.dylib"; sourceTree = "<group>"; };
 		3847B6D2247400A5005B2B3B /* GimpScan.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GimpScan.icns; sourceTree = "<group>"; };
+		38E369CB2478375500373594 /* install.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = install.m; sourceTree = "<group>"; };
 		38FF99012475961B00B5DF66 /* libgio-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgio-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgio-2.0.0.dylib"; sourceTree = "<group>"; };
 		38FF99042475971900B5DF66 /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
 		38FF99072475979C00B5DF66 /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "GimpScan/libgimp/lib/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				381F9A3C246711F500871D9D /* AppDelegate.h */,
 				381F9A3D246711F500871D9D /* AppDelegate.m */,
 				381F9A45246711F700871D9D /* main.m */,
+				38E369CB2478375500373594 /* install.m */,
 			);
 			path = GimpScan;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			files = (
 				381F9A46246711F700871D9D /* main.m in Sources */,
 				381F9A3E246711F500871D9D /* AppDelegate.m in Sources */,
+				38E369CC2478375500373594 /* install.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,10 +533,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Simul Piscator";
+				CODE_SIGN_IDENTITY = "Apple Development: juergen.mellinger@t-online.de (34MUU28V62)";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3475GABT9Z;
 				INFOPLIST_FILE = GimpScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,10 +561,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "Simul Piscator";
+				CODE_SIGN_IDENTITY = "Apple Development: juergen.mellinger@t-online.de (34MUU28V62)";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3475GABT9Z;
 				INFOPLIST_FILE = GimpScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
