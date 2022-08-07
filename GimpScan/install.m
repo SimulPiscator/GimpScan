@@ -34,7 +34,8 @@ int install()
     NSMutableArray* matchesWith = [NSMutableArray new];
     NSString* item;
     for (item in apps) {
-        if ([item rangeOfString:@"GIMP"].location == 0) {
+        if ([item rangeOfString:@"GIMP"].location == 0
+            || [item rangeOfString:@"McGimp"].location == 0) {
             NSMutableString* gimpDir = [[NSMutableString alloc] initWithString:appPath];
             [gimpDir appendString:item];
             NSMutableString* pDir = [[NSMutableString alloc] initWithString:gimpDir];
