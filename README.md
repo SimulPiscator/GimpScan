@@ -1,6 +1,9 @@
 # GimpScan
 A GIMP plugin to import images from scanners on macOS.
 
+__NOTE:__ This plugin does not work with current versions of GIMP and macOS. A similar plugin has been added to the GIMP distribution and will be available from
+GIMP 3.2.10.
+
 ## Installation
 Download the binary from https://github.com/SimulPiscator/GimpScan/releases/download/v0.41/GimpScan.zip, and unpack it to a permanent location such as /Applications/Utilities. 
 Then, run it by ctrl-clicking and choosing "Open..." from the context menu, and confirming that you want to run it.
